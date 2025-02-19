@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 16px;
+    min-width: 19vw;
+    max-width: 19vw;
+    min-height: 15vh;
+    max-height: 20vh;
+    word-wrap: break-word;
+    margin: 0px;
+}
+table {
+    border-collapse: collapse; /* Remove o espaço entre as células */
+}
+
+@media only screen and (max-width: 768px) {
+    input{
+        font-size: 25px;
+        max-width: 20vw;
+        max-height: 20vh;
+    }
+    body {
+        font-size: 14px;
+        background-color: lightgreen;
+    }
+}
+
+/* Para telas muito pequenas (dispositivos móveis) */
+@media only screen and (max-width: 480px) {
+    button{
+        font-size: 16px;
+        min-width: 19vw;
+        max-width: 19vw;
+        min-height: 15vh;
+        max-height: 20vh;
+        word-wrap: break-word;
+        margin: 0px;
+    }
+    body {
+        font-size: 12px;
+        background-color: lightcoral;
+    }
+    table {
+        border-collapse: collapse; /* Remove o espaço entre as células */
+    }
+}
