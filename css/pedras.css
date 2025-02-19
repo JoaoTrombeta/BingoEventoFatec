@@ -69,3 +69,11 @@ body {
         }
     }
 }
+.listapedras{
+    width: 50vw;
+    height: 85vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ff5757;
+}
